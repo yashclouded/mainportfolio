@@ -9,21 +9,21 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'Yash | Builder, Founder & Engineer',
-  description: 'Portfolio of Yash - Teenage founder, AI engineer, and systems thinker exploring the edges of internet culture, youth innovation, and next-generation interfaces.',
-  keywords: ['Yash', 'Portfolio', 'AI Engineer', 'Founder', 'Web Development', 'Systems Thinker', 'Next.js', 'React', 'Frontend'],
-  authors: [{ name: 'Yash' }],
-  creator: 'Yash',
+  title: 'Yash Vardhan Singh | Builder, Founder & Engineer',
+  description: 'Portfolio of Yash Vardhan Singh - Teenage founder, AI engineer, and systems thinker exploring the edges of internet culture, youth innovation, and next-generation interfaces.',
+  keywords: ['Yash Vardhan Singh', 'Yash', 'Portfolio', 'AI Engineer', 'Founder', 'Web Development', 'Systems Thinker', 'Next.js', 'React', 'Frontend'],
+  authors: [{ name: 'Yash Vardhan Singh' }],
+  creator: 'Yash Vardhan Singh',
   openGraph: {
-    title: 'Yash | Builder & Founder',
+    title: 'Yash Vardhan Singh | Builder & Founder',
     description: 'Exploring the edges of AI, internet culture, and youth innovation.',
-    url: 'https://yashsingh.dev', // Replace with actual domain later
-    siteName: 'Yash Portfolio',
+    url: 'https://yashvibe.codes',
+    siteName: 'Yash Vardhan Singh Portfolio',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yash | Builder & Founder',
+    title: 'Yash Vardhan Singh | Builder & Founder',
     description: 'Exploring the edges of AI, internet culture, and youth innovation.',
     creator: '@yashclouded',
   },
