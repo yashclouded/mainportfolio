@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-space: var(--font-space), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Hide default cursor on desktop — the fluid disturbance IS the cursor */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Reduced motion: disable fluid effects entirely */
+@media (prefers-reduced-motion: reduce) {
+  canvas {
+    display: none !important;
+  }
+}
+
+/*
+  Fluid text visibility blend.
+  Applied per-section so it doesn't create a global containing block
+  (which would break position:sticky in the horizontal scroll gallery).
+
+  Math:
+    On white fluid:  |1 - (1 - content)| = content  → normal appearance
+    On dark fluid:   |0.07 - (1 - content)| ≈ |content - 0.93| → text becomes bright
+*/
+.fluid-blend {
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
