@@ -315,9 +315,9 @@ export default function FluidBackground() {
 
   useEffect(() => {
     init();
+    const canvas = canvasRef.current;
     return () => {
       cancelAnimationFrame(animFrameRef.current);
-      const canvas = canvasRef.current;
       if (canvas && (canvas as any).__fluidCleanup) {
         (canvas as any).__fluidCleanup();
       }

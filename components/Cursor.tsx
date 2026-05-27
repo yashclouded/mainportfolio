@@ -12,7 +12,12 @@ import { useFluid } from '@/lib/FluidContext';
  */
 export default function Cursor() {
   const { subscribe } = useFluid();
-  const [isTouch, setIsTouch] = useState(false);
+  const [isTouch, setIsTouch] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.matchMedia('(pointer: coarse)').matches;
+    }
+    return false;
+  });
 
   const springConfig = { damping: 25, stiffness: 250, mass: 0.4 };
   const cursorX = useSpring(0, springConfig);
@@ -21,10 +26,7 @@ export default function Cursor() {
   const cursorScale = useSpring(1, { damping: 15, stiffness: 120 });
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches) {
-      setIsTouch(true);
-      return;
-    }
+    if (isTouch) return;
 
     const unsubscribe = subscribe((state) => {
       cursorX.set(state.pixelX);
