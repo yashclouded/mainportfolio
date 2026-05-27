@@ -24,10 +24,8 @@ export default function FooterSection() {
 
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.4em] font-semibold text-black/40">
         <div className="flex gap-4">
-          <a href="#" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">TW</a>
-          <a href="#" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">GH</a>
-          <a href="#" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">IN</a>
-          <a href="#" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">ML</a>
+          <a href="https://www.linkedin.com/in/yashvardhansinghbnb/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">IN</a>
+          <a href="mailto:yash@gobitsnbytes.org" className="w-10 h-10 border border-gray-200 rounded-full flex items-center justify-center hover:border-[#FF0000] hover:text-black transition-all">ML</a>
         </div>
         
         <div className="flex items-center gap-2">
