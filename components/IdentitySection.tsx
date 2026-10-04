@@ -29,7 +29,7 @@ export default function IdentitySection() {
           className="col-span-1 flex flex-col gap-12"
         >
           <p className="text-2xl md:text-3xl lg:text-4xl font-light leading-tight tracking-tight text-black">
-            I build intelligent products, host ambitious events, and create systems that help people imagine bigger futures.
+            I build AI-powered products, embedded systems, and developer tools, and lead a 1,500+ member student tech community.
           </p>
           
           <div className="flex gap-4 items-center group cursor-crosshair">
@@ -38,16 +38,16 @@ export default function IdentitySection() {
 
           <div className="grid grid-cols-2 gap-8 text-black/50 text-[10px] uppercase tracking-[0.4em] font-semibold leading-relaxed">
             <ul className="flex flex-col gap-4">
-              <li className="hover:text-black transition-colors">Teenage Founder</li>
-              <li className="hover:text-black transition-colors">AI Engineer</li>
-              <li className="hover:text-black transition-colors">Systems Thinker</li>
-              <li className="hover:text-black transition-colors">Internet-Native Builder</li>
+              <li className="hover:text-black transition-colors">CTO @ Ashoka MAA</li>
+              <li className="hover:text-black transition-colors">Founder, Bits&amp;Bytes</li>
+              <li className="hover:text-black transition-colors">AI &amp; Embedded Systems</li>
+              <li className="hover:text-black transition-colors">Full-Stack &amp; Mobile</li>
             </ul>
             <ul className="flex flex-col gap-4">
-              <li className="hover:text-black transition-colors">Event Organizer</li>
-              <li className="hover:text-black transition-colors">Experimental Product Creator</li>
-              <li className="hover:text-black transition-colors">Hackathon Culture</li>
-              <li className="hover:text-black transition-colors">Storytelling via Tech</li>
+              <li className="hover:text-black transition-colors">Startup Ashoka (2nd Place)</li>
+              <li className="hover:text-black transition-colors">Community (1,500+ Members)</li>
+              <li className="hover:text-black transition-colors">Hardware &amp; ESP32</li>
+              <li className="hover:text-black transition-colors">Hackathon Organizer</li>
             </ul>
           </div>
         </motion.div>

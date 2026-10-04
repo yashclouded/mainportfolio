@@ -38,7 +38,7 @@ export default function Cursor() {
     });
 
     return unsubscribe;
-  }, [subscribe, cursorX, cursorY, cursorOpacity, cursorScale]);
+  }, [subscribe, cursorX, cursorY, cursorOpacity, cursorScale, isTouch]);
 
   if (isTouch) return null;
 

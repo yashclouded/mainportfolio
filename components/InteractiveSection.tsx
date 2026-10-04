@@ -38,33 +38,53 @@ export default function InteractiveSection() {
   const projects = [
     { 
       num: '01', 
+      title: 'LISA', 
+      subtitle: 'Light-based In-field Spectral Analyser · Startup Ashoka 2026 (2nd Place)',
+      desc: 'A frugal, Foldscope-style smartphone spectrometer for testing drinking water, aimed at field kits used under India\'s Jal Jeevan Mission that rely on subjective visual colour matching without digital records. Features an origami card enclosure with a 30×30 mm optical tube, dual razor-blade slit, and diffraction grating film costing ~₹1,500/unit, coupled with an offline-first physics-informed ML runtime (Beer-Lambert, Ridge Regression) measuring absorption from 400–700 nm to quantify phosphate and lead levels against BIS IS 10500:2012 standards with bilingual voice readouts and geotagged logs.',
+      tech: 'Physics-Informed ML, Ridge Regression, Beer-Lambert Law, Embedded Optical Hardware, BIS Standards, Python',
+      links: [
+        { label: 'GitHub', url: 'https://github.com/yashclouded/lisa' }
+      ]
+    },
+    { 
+      num: '02', 
+      title: 'Ghost', 
+      subtitle: 'Through-Wall Fall Detection on a WiFi Chip · ESP32 & PyTorch',
+      desc: 'An end-to-end through-wall fall detection pipeline where ESP32 firmware streams WiFi channel-state information (CSI) into a CNN achieving 96% test accuracy and 97.8% fall recall, gated by a debounced state machine. Integrated with an LLM-written caregiver alert system with deterministic fallbacks, a live 3D digital twin of the sensing pipeline, and a custom parametric CAD enclosure and circuit costing ~₹430 ($5) per room.',
+      tech: 'Python, PyTorch, ESP32 Firmware, WiFi CSI, CNNs, Three.js, React, Parametric CAD',
+      links: [
+        { label: 'GitHub', url: 'https://github.com/yashclouded/ghost' }
+      ]
+    },
+    { 
+      num: '03', 
       title: 'NextBench', 
-      subtitle: 'Verified Student Marketplace',
-      desc: 'A premium student-to-student marketplace built for trusted campus transactions. NextBench enables verified students to buy, sell, and exchange books, notes, uniforms, and other essentials within a secure ecosystem. Built with scalability, authentication, image hosting, and PWA support to deliver a fast, app-like experience.',
-      tech: 'React 19, TypeScript, Tailwind CSS v4, Firebase, Cloudinary, Framer Motion, Vite, PWA',
+      subtitle: 'Verified Campus Marketplace · Kotlin & Android · 300+ Active Users',
+      desc: 'A verified-student campus marketplace for trusted buying and selling, campus stories, student clubs, and messaging. The web platform is live and actively used by over 300 students, with the native Android app launching in October 2026.',
+      tech: 'Kotlin, Android, React 19, TypeScript, Firebase, Tailwind CSS, PWA',
       links: [
         { label: 'Live', url: 'https://nextbench.in' },
         { label: 'GitHub', url: 'https://github.com/yashclouded/nextbench-1' }
       ]
     },
     { 
-      num: '02', 
+      num: '04', 
       title: 'Codiva', 
-      subtitle: 'Code Activity Tracker & Gamification',
-      desc: 'A gamified productivity platform designed to make coding more engaging through XP systems, streaks, achievements, analytics, and challenges. Codiva rewards meaningful coding activity while preventing spam contributions, helping developers build stronger habits and track long-term progress.',
-      tech: 'XP system, streak tracking, achievements, coding challenges, contribution heatmaps, analytics dashboard',
+      subtitle: 'VS Code Extension · 5.0 Rating · 83 Active Users',
+      desc: 'A gamified coding extension for Visual Studio Code featuring a distraction-free Pomodoro timer and actionable analytics on coding habits. Helps developers maintain flow state and build consistent programming discipline.',
+      tech: 'TypeScript, VS Code Extension API, Pomodoro Engine, Developer Productivity Analytics',
       links: [
         { label: 'GitHub', url: 'https://github.com/yashclouded/codiva' }
       ]
     },
     { 
-      num: '03', 
-      title: 'ALife Engine v2', 
-      subtitle: 'Artificial Life & Evolution Simulator',
-      desc: 'A modular artificial life simulator that models evolution through neural-network-driven organisms, genetics, mutation, and emergent behavior. Organisms autonomously reproduce, compete, evolve traits, and form complex ecosystems while simulation data is visualized in real time through an interactive dashboard.',
-      tech: 'Neural network brains, genetic evolution, species clustering, reproduction systems, real-time GUI, simulation analytics',
+      num: '05', 
+      title: 'Alem', 
+      subtitle: 'Lightweight Notes App · Python · Under 25 MB',
+      desc: 'Built specifically for low-resource devices under 25 MB total footprint. Features rich text editing, local AI-powered semantic search, dynamic tagging, and secure sharing without cloud bloat.',
+      tech: 'Python, Semantic Search, Local Embeddings, Rich Text, Low-Resource Systems',
       links: [
-        { label: 'GitHub', url: 'https://github.com/yashclouded/algomain' }
+        { label: 'GitHub', url: 'https://github.com/yashclouded/aAlem' }
       ]
     },
   ];

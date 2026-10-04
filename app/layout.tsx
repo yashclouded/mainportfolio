@@ -10,21 +10,21 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   title: 'Yash Vardhan Singh | Builder, Founder & Engineer',
-  description: 'Portfolio of Yash Vardhan Singh - Teenage founder, AI engineer, and systems thinker exploring the edges of internet culture, youth innovation, and next-generation interfaces.',
-  keywords: ['Yash Vardhan Singh', 'Yash', 'Portfolio', 'AI Engineer', 'Founder', 'Web Development', 'Systems Thinker', 'Next.js', 'React', 'Frontend'],
+  description: 'Portfolio of Yash Vardhan Singh — CTO of Ashoka Ministry of Academic Affairs, founder of Bits&Bytes, and builder of AI-powered products, embedded systems, and developer tools.',
+  keywords: ['Yash Vardhan Singh', 'Yash', 'Portfolio', 'AI Engineer', 'Embedded Systems', 'CTO Ashoka', 'Bits&Bytes', 'LISA', 'NextBench', 'Codiva', 'Next.js', 'React', 'Kotlin', 'ESP32'],
   authors: [{ name: 'Yash Vardhan Singh' }],
   creator: 'Yash Vardhan Singh',
   openGraph: {
-    title: 'Yash Vardhan Singh | Builder & Founder',
-    description: 'Exploring the edges of AI, internet culture, and youth innovation.',
+    title: 'Yash Vardhan Singh | Builder, Founder & Engineer',
+    description: 'Building AI-powered products, embedded systems, and developer tools. CTO of Ashoka Ministry of Academic Affairs.',
     url: 'https://yashvibe.codes',
     siteName: 'Yash Vardhan Singh Portfolio',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yash Vardhan Singh | Builder & Founder',
-    description: 'Exploring the edges of AI, internet culture, and youth innovation.',
+    title: 'Yash Vardhan Singh | Builder, Founder & Engineer',
+    description: 'Building AI-powered products, embedded systems, and developer tools. CTO of Ashoka Ministry of Academic Affairs.',
     creator: '@yashclouded',
   },
 };

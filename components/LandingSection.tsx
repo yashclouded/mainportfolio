@@ -75,7 +75,7 @@ export default function LandingSection() {
   const wordsOpacityRaw = useTransform(scrollYProgress, [0.1, 0.15], [0, 1]);
   const wordsOpacity = useSpring(wordsOpacityRaw, { stiffness: 60, damping: 20 });
 
-  const words = ['AI AGENTS', 'SYSTEMS', 'WEBSITES', 'EXPERIENCES', 'HACKATHONS'];
+  const words = ['AI PRODUCTS', 'EMBEDDED', 'DEV TOOLS', 'EXPERIENCES', 'COMMUNITY'];
 
   return (
     <div ref={containerRef} className="h-[500vh] relative">
@@ -106,11 +106,11 @@ export default function LandingSection() {
             style={{ opacity: textOpacity }}
           >
             <p className="mb-4">
-              builder, founder, engineer, storyteller.<br />
-              currently exploring the edges of ai, internet culture, and youth innovation.
+              builder, founder, engineer.<br />
+              building ai-powered products, embedded systems, and developer tools.
             </p>
             <p className="text-black font-normal">
-              based in india. building for the internet.
+              cto @ ashoka maa · based in india.
             </p>
           </motion.div>
         </motion.div>
